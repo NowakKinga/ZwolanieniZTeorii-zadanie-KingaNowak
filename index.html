@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-fonts.css">
+  <meta charset="utf-8">
+  <title>PureJS</title>
+  <script type="text/html" id="home">
+    <div class="form-wrapper">
+      <div class="form-background">
+        <p class="text text-font">Log in</p>
+      <form class="form" id="form">
+        <input class="username form-font" placeholder="Username" type="text" id="username">
+        <input class="password form-font" placeholder="Password" type="text" id="password">
+        <button class="submit submit-font" id="button">Submit</button>
+      </form>
+      </div>
+    </div>
+  </script>
+  <script type="text/html" id="success">
+    <div class="result-wrapper">
+      <div class="result-background">
+        <div class="result text-font">Login was successful!</div>
+      </div>
+    </div>
+  </script>
+</head>
+<body class="home">
+  <div id="app" class="app"></div>
+  <script src="./app.js"></script>
+</body>
+</html>

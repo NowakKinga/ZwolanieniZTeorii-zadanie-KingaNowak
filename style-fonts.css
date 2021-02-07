@@ -1,0 +1,15 @@
+.text-font{
+    font-size: 50px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+}
+.form-font{
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit-font{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 25px;
+}
